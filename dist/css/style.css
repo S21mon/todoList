@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0; }
+
+.container {
+  padding: 2rem 4rem 1rem 4rem; }
+
+.header {
+  background-color: #5CCCCC; }
+  .header .title__text {
+    display: block;
+    text-align: center;
+    font-size: 3rem; }
+
+.main {
+  background-color: #C5E2E2; }
+  .main .case {
+    text-align: center; }
+    .main .case__btn {
+      margin-left: 3rem; }
+    .main .case__text, .main .case__btn {
+      font-size: 1.8rem; }
+  .main .list-cases {
+    max-width: 43rem;
+    min-height: 35rem;
+    background-color: #FAFFFF;
+    margin: 0 auto; }
+    .main .list-cases .list {
+      list-style-type: none;
+      padding: 1rem;
+      text-align: center; }
+      .main .list-cases .list .js-line {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0.5rem; }
+      .main .list-cases .list .js-line-text {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.8rem; }
+      .main .list-cases .list .js-line-execute {
+        text-decoration: line-through; }
+      .main .list-cases .list .js-invisible-element {
+        display: none; }
+    .main .list-cases .sections {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 2rem 0.5rem;
+      padding: 1rem; }
+      .main .list-cases .sections .js-section {
+        margin: 0 auto; }
+      .main .list-cases .sections .js-invisible-element {
+        display: none; }
+  .main .filtration {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .main .filtration .filter {
+      margin: 1rem 1.15rem; }
+      .main .filtration .filter__btn {
+        font-size: 1.63rem; }
+  .main .js-btn-pagination {
+    background-color: #5CCCCC; }

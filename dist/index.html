@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>ToDoList</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="title">
+                <span class="title__text">Список дел</span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="case js-case">
+                <input type="text" name="newCase" class="case__text js-case-text" placeholder="Введите название дела">
+                <button class="case__btn js-case-btn">Добавить в список</button>
+            </div>
+            <div class="list-cases js-list-cases">
+                <ul class="list js-list">
+
+                </ul>
+                <div class="sections js-sections">
+                </div>
+            </div>
+            <div class="filtration js-filtration">
+                <div class="filter">
+                    <button class="filter__btn js-btn-all">Все дела</button>
+                </div>
+                <div class="filter">
+                    <button class="filter__btn js-btn-uncomplete">Требуют выполнения</button>
+                </div>
+                <div class="filter">
+                    <button class="filter__btn js-btn-complete">Выполненные</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
